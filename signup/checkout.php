@@ -103,7 +103,7 @@ if(isset($_POST['update'])){
           </div>
 
         </div>
-        <input type="submit" name='update' value="Continue to checkout" class="btn"> </input>
+        <input type="submit" name="update" value="Continue to checkout" class="btn"> </input>
 
 </form>
   <!--------------------------------------------------------------checkout form------------------------------------------------------------------------------------------------------------------>
