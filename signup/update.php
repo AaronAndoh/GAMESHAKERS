@@ -120,8 +120,8 @@ if (mysqli_num_rows($result) > 0) {
     <!--table to display the items in the cart-->
 <table class='table' style="border: 0px solid white; border-collapse: collapse;width:100%;">
 <tr style ="width=100%" >
-<td  style="border: 1px solid black; border-collapse: collapse; background-color: #CDDDEE; width=100%;">old username</td>
-<td  style="border: 1px solid black; border-collapse: collapse; background-color: #CDDDEE;width=100%;">new username</td>
+<td  style="border: 1px solid black; border-collapse: collapse; background-color: #CDDDEE; width=100%;">old </td>
+<td  style="border: 1px solid black; border-collapse: collapse; background-color: #CDDDEE;width=100%;">new </td>
 <td  style="border: 1px solid black; border-collapse: collapse; background-color: #CDDDEE;width=50%;"></td>
 </tr>
 <?php
