@@ -1,7 +1,7 @@
 <?php 
 
 include 'config.php'; //include database
-if(isset($_POST['checkout'])){
+if(isset($_POST['update'])){
     if(!empty($_POST['firstname'] && $_POST['email']&& $_POST['address']&&$_POST['city'])&&$_POST['state']&& $_POST['zip']&& $_POST['cardname']&& $_POST['cardnumber']&& $_POST['expmonth']&&$_POST['expyear']&&$_POST['cvv']){ //checks if the various forms are not empty
      $firstname=$_POST['firstname']; // setting the form value in variable
      $email= $_POST['email'];
